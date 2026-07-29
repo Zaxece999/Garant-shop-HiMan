@@ -1,0 +1,58 @@
+[DATABASE]
+user = postgres
+host = 127.0.0.1
+pass = your_db_password
+port = 5432
+db = garant_bot
+
+[REDIS]
+host = localhost
+port = 6379
+db = 1
+password = your_redis_password
+
+[GARANT]
+max_deals = 10
+min_amount_deal = 5.00
+anti_flood_deal_min = 1
+min_withdrawal = 4.50
+min_seller_balance = 20.00
+
+[APP]
+host = localhost
+port = 65400
+path_cryptobot = /hookCryptoBotGarant
+
+[BOT]
+bot_token = 000000000:your_bot_token
+owner_id = 000000000
+owner_username = your_username
+channel_username = your_channel
+
+[LINKS]
+main_domain = https://example.com
+rules = https://telegra.ph/your-rules-page
+admin = https://t.me/your_admin
+channel = https://t.me/your_channel
+private_chat = https://t.me/+your_invite_hash
+
+[PRICES]
+percent_service = 0.10
+percent_disput = 0.00
+one_usd_stars = 300
+toup_ref = 0.5
+
+[CHATS_ID]
+withdrawal = -1000000000000
+admin = -1000000000000
+logs = -1000000000000
+general = -1000000000000
+channel = -1000000000000
+
+[API_KEYS]
+cryptobot = your_cryptobot_api_key
+heleket = your_heleket_api_key
+
+[WEBHOOK]
+WEBHOOK_URI = https://example.com
+MERCHANT_ID = 00000000-0000-0000-0000-000000000000

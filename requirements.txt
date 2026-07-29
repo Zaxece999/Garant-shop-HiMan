@@ -1,0 +1,10 @@
+aiogram==3.4.1
+aiohttp
+peewee
+peewee-async
+psycopg2-binary
+redis
+cachetools
+asyncache
+pytils
+names
